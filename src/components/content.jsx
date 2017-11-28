@@ -4,7 +4,9 @@ const Content = (props) => {
   return(
     <div className='content-box'>
       <p className='text-content'>{props.textContent}</p>
-      <img className='image-content' src={props.imageContent}/>
+      <div className='image-content-wrapper'>
+        <img className='image-content' src={props.imageContent} alt="Content"/>
+      </div>
     </div>
   );
 };

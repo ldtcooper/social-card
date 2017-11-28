@@ -10,7 +10,7 @@ class SocialCard extends Component {
 
   render() {
     return(
-      <body className="card">
+      <div className="card">
         <Header
           avatarLink={this.props.avatarLink}
           username={this.props.username}
@@ -22,7 +22,7 @@ class SocialCard extends Component {
         imageContent={this.props.imageContent}
       />
         <Toolbar />
-      </body>
+      </div>
     );
   }
 

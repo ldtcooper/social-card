@@ -1,1 +1,20 @@
+.card {
+  display: flex;
+  width: 50%;
+  margin: auto;
+}
 
+.card header {
+  display: flex;
+  height: 20%;
+}
+
+.card header .image-content-wrapper {
+  width: 30%;
+  height: 30%;
+}
+
+.card header .image-content-wrapper img {
+  width: 100%;
+  height: auto;
+}

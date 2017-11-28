@@ -8,7 +8,8 @@ class App extends Component {
       <SocialCard avatarLink='https://upload.wikimedia.org/wikipedia/commons/0/00/William_Blake_by_Thomas_Phillips.jpg'
       username="William Blake"
       userHandle="@los"
-      date="Nov 28" />
+      date="Nov 28"
+      textContent="And did those feet in ancient time?"/>
     );
   }
 }

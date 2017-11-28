@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const userInfo = (props) => {
+const userInfo = (props) => {
   return(
     <div className="header-info">
       <p className="user-name">{props.username}</p>
@@ -9,3 +9,5 @@ export const userInfo = (props) => {
     </div>
   );
 };
+
+export default userInfo;

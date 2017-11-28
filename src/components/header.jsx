@@ -8,6 +8,7 @@ class Header {
 
   render() {
     return(
+      // takes avatarLink, username, userHandle, and date
       <header>
         <img src={this.props.avatarLink} alt={`${this.props.username}'s avatar'`}/>
         <UserInfo username={this.props.username} userHandle={this.props.userHandle} date={this.props.date}/>

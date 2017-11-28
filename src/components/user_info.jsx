@@ -1,6 +1,7 @@
 import React from 'react';
 
-const userInfo = (props) => {
+const UserInfo = (props) => {
+  // expects username, userHandle, and date
   return(
     <div className="header-info">
       <p className="user-name">{props.username}</p>
@@ -10,4 +11,4 @@ const userInfo = (props) => {
   );
 };
 
-export default userInfo;
+export default UserInfo;

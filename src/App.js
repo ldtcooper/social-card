@@ -3,7 +3,9 @@ import './App.css';
 
 class App extends Component {
   render() {
-
+    return(
+      <h1>Social Card</h1>
+    );
   }
 }
 

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Header from './header.jsx';
+import Toolbar from './toolbar.jsx';
 
 class SocialCard extends Component {
   constructor(props) {
@@ -15,6 +16,7 @@ class SocialCard extends Component {
           userHandle={this.props.userHandle}
           date={this.props.date}
         />
+        <Toolbar />
       </body>
     );
   }

@@ -1,13 +1,7 @@
 import React from 'react';
 import { SocialButton, MailButton} from './social_button.jsx';
 
-class Toolbar {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
-  render() {
+const Toolbar = (props) => {
     return(
       <footer>
         <SocialButton icon="fa fa-comment-o"/>
@@ -16,5 +10,6 @@ class Toolbar {
         <MailButton />
       </footer>
     );
-  }
-}
+  };
+
+export default Toolbar;

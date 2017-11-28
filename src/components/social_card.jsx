@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Header from './header.jsx';
 
-class SocialCard {
+class SocialCard extends Component {
   constructor(props) {
     super(props);
   }

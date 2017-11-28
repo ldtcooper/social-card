@@ -5,7 +5,10 @@ import SocialCard from './components/social_card.jsx';
 class App extends Component {
   render() {
     return(
-      <SocialCard />
+      <SocialCard avatarLink={this.props.avatarLink}
+      username={this.props.username}
+      userHandle={this.props.userHandle}
+      date={this.props.date} />
     );
   }
 }

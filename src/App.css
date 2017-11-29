@@ -22,16 +22,31 @@
   margin-top: 2%;
 }
 
-.card header .header-info {
+.header-info {
   display: flex;
   flex-direction: row;
   margin: 2% 0% 0% 2%;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.user-handle {
+  margin-left: 6px;
+  margin-right: 6px;
+  color: grey;
+}
+
+.post-date {
+  color: grey;
 }
 
 .card footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  color: grey;
 }
 
 .card footer div {

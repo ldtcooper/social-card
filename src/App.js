@@ -10,7 +10,7 @@ class App extends Component {
 
   render() {
     return(
-      <SocialCard avatarLink='https://upload.wikimedia.org/wikipedia/commons/0/00/William_Blake_by_Thomas_Phillips.jpg'
+      <SocialCard avatarLink='https://picsum.photos/100/100/?random'
       username="William Blake"
       userHandle="@los"
       date="Nov 28"

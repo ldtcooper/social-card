@@ -59,6 +59,18 @@
   flex-direction: row;
 }
 
-footer:first-child:hover {
+#comment:hover {
   color: lightblue;
+}
+
+#retweet:hover {
+  color: green;
+}
+
+#like:hover {
+  color: red;
+}
+
+#mail:hover {
+  color: darkblue;
 }

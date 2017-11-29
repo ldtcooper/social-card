@@ -3,7 +3,7 @@ import React from 'react';
 const Content = (props) => {
   return(
     <div className='content-box'>
-      {props.imageContent ? <img className='image-content' src={props.imageContent} alt="Content"/> : ""}
+      <img className='image-content' src='https://picsum.photos/300/500/?random' alt="Content"/>
     </div>
   );
 };

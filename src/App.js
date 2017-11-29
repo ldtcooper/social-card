@@ -8,7 +8,15 @@ class App extends Component {
     super(props);
   }
 
+  getTextContent() {
+    const xmlHttp = new XMLHttpRequest();
+    xmlHttp.open('GET', `api.forismatic.com/api/1.0/method=getQuote&format=json&lang=en`, false);
+    xmlHttp.send();
+    console.log(xmlHttp.responseText);
+  }
+
   render() {
+    this.getTextContent();
     return(
       <SocialCard avatarLink='https://picsum.photos/100/100/?random'
       username="William Blake"
@@ -18,7 +26,6 @@ class App extends Component {
 In the forests of the night;
 What immortal hand or eye,
 Could frame thy fearful symmetry?"
-      imageContent="https://picsum.photos/300/500/?random"
     />
     );
   }

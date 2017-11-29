@@ -21,6 +21,7 @@
   object-fit: cover;
   border-radius: 50%;
   margin-top: 2%;
+  background-color: lightgrey;
 }
 
 .header-content-wrapper {
@@ -67,6 +68,7 @@
   margin: 3% 3% 3% calc(3% + 48px);
   border: solid lightgrey 1px;
   border-radius: 5px;
+  background-color: lightgrey;
 }
 
 .card footer {

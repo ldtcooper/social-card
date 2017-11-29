@@ -14,11 +14,10 @@ class App extends Component {
 In the forests of the night;
 What immortal hand or eye,
 Could frame thy fearful symmetry?"
+      imageContent="https://upload.wikimedia.org/wikipedia/commons/9/91/The_Tyger_BM_a_1794.jpg"
     />
     );
   }
 }
 
 export default App;
-
-//       imageContent="https://upload.wikimedia.org/wikipedia/commons/9/91/The_Tyger_BM_a_1794.jpg"

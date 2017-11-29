@@ -42,6 +42,11 @@
   color: grey;
 }
 
+.content-box {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .card footer {
   display: flex;
   flex-direction: row;

@@ -97,6 +97,22 @@
   color: darkblue;
 }
 
+#comment-clicked {
+  color: lightblue;
+}
+
+#retweet-clicked {
+  color: green;
+}
+
+#like-clicked {
+  color: red;
+}
+
+#mail-clicked {
+  color: darkblue;
+}
+
 .social-button {
   display: flex;
   align-items: center;

@@ -6,8 +6,8 @@ const Toolbar = (props) => {
       <footer>
         <SocialButton id="comment" icon="fa fa-comment-o"/>
         <SocialButton id="retweet" icon="fa fa-retweet"/>
-        <SocialButton id="heart" icon="fa fa-heart-o"/>
-        <MailButton />
+        <SocialButton id="like" icon="fa fa-heart-o"/>
+        <MailButton id="mail" />
       </footer>
     );
   };

@@ -8,7 +8,7 @@ export class SocialButton extends Component {
 
   render() {
     return(
-      <div className="social-button">
+      <div className="social-button" id={this.props.id}>
         <i className={[`fa ${this.props.icon}`, 'social-icon'].join(" ")} aria-hidden="true"></i>
         <p className='interaction-count'>3</p>
       </div>
@@ -16,9 +16,9 @@ export class SocialButton extends Component {
   }
 }
 
-export const MailButton = () => {
+export const MailButton = (props) => {
   return(
-    <div className="social-button">
+    <div className="social-button" id={props.id}>
       <i className="fa fa-envelope-o social-icon" aria-hidden="true"></i>
     </div>
   );

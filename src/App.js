@@ -10,7 +10,7 @@ class App extends Component {
 
   getTextContent() {
     const xmlHttp = new XMLHttpRequest();
-    xmlHttp.open('GET', `api.forismatic.com/api/1.0/method=getQuote&format=json&lang=en`, false);
+    xmlHttp.open('GET', `api.forismatic.com/api/1.0/method=getQuote&format=json&lang=en`);
     xmlHttp.send();
     console.log(xmlHttp.responseText);
   }
@@ -18,10 +18,8 @@ class App extends Component {
   render() {
     this.getTextContent();
     return(
-      <SocialCard avatarLink='https://picsum.photos/100/100/?random'
-      username="William Blake"
+      <SocialCard username="William Blake"
       userHandle="@los"
-      date="Nov 28"
       textContent="Tyger Tyger, burning bright,
 In the forests of the night;
 What immortal hand or eye,

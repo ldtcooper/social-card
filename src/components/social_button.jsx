@@ -9,7 +9,8 @@ export class SocialButton extends Component {
 
   handleClick(e) {
     const elemId = e.target.parentElement.getAttribute("id");
-    if (e.target.parentElement.getAttribute("id").match(/-clicked/)) {
+    console.log(e.target);
+    if (elemId.match(/-clicked/)) {
       const unclicked = elemId.split("-")[0];
       this.setState({clicks: this.state.clicks - 1});
       e.target.parentElement.setAttribute("id", `${unclicked}`);

@@ -3,6 +3,7 @@
   width: 50%;
   margin: auto;
   flex-direction: column;
+  font-family: 'Roboto', sans-serif;
 }
 
 .card header {

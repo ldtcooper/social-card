@@ -7,14 +7,13 @@
 .card header {
   display: flex;
   height: 20%;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.card header .image-content-wrapper {
-  width: 30%;
-  height: 30%;
-}
-
-.card header .image-content-wrapper img {
-  width: 100%;
-  height: auto;
+.card header img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
 }

@@ -12,6 +12,7 @@ class Header extends Component {
       <header>
         <img src={this.props.avatarLink} alt={`${this.props.username}'s avatar'`}/>
         <UserInfo username={this.props.username} userHandle={this.props.userHandle} date={this.props.date}/>
+        <p className='text-content'>{this.props.textContent}</p>
       </header>
     );
   }

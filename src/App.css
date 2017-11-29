@@ -30,16 +30,19 @@
 
 .user-name {
   font-weight: bold;
+  font-size: 11pt;
 }
 
 .user-handle {
   margin-left: 6px;
   margin-right: 6px;
   color: grey;
+  font-size: 10pt;
 }
 
 .post-date {
   color: grey;
+  font-size: 10pt;
 }
 
 .content-box {
@@ -73,4 +76,13 @@
 
 #mail:hover {
   color: darkblue;
+}
+
+.social-button {
+
+}
+
+.social-button p {
+  font-weight: bold;
+  margin-left: 5px;
 }

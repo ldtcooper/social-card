@@ -16,9 +16,9 @@ class SocialCard extends Component {
           username={this.props.username}
           userHandle={this.props.userHandle}
           date={this.props.date}
+          textContent={this.props.textContent}
         />
       <Content
-        textContent={this.props.textContent}
         imageContent={this.props.imageContent}
       />
         <Toolbar />

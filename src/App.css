@@ -62,9 +62,11 @@
 }
 
 .content-box img {
-  width: 100%;
+  width: 90%;
   height: 500px;
   margin: 3% 3% 3% calc(3% + 48px);
+  border: solid lightgrey 1px;
+  border-radius: 5px;
 }
 
 .card footer {

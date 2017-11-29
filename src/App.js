@@ -13,9 +13,12 @@ class App extends Component {
       textContent="Tyger Tyger, burning bright,
 In the forests of the night;
 What immortal hand or eye,
-Could frame thy fearful symmetry?"/>
+Could frame thy fearful symmetry?"
+    />
     );
   }
 }
 
 export default App;
+
+//       imageContent="https://upload.wikimedia.org/wikipedia/commons/9/91/The_Tyger_BM_a_1794.jpg"

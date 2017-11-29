@@ -1,9 +1,10 @@
 .card {
   display: flex;
-  width: 50%;
+  width: 40%;
   margin: auto;
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
+  margin-top: 50px;
 }
 
 .card header {
@@ -22,10 +23,19 @@
   margin-top: 2%;
 }
 
+.header-content-wrapper {
+  margin-left: 3%;
+}
+
+.text-content {
+  margin-top: 2%;
+  font-size: 11pt;
+}
+
 .header-info {
   display: flex;
   flex-direction: row;
-  margin: 2% 0% 0% 2%;
+  margin-top: 2%;
 }
 
 .user-name {
@@ -50,11 +60,19 @@
   margin-bottom: 10px;
 }
 
+.content-box img {
+  width: 100%;
+  margin: 3% 3% 3% calc(3% + 48px);
+}
+
 .card footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   color: grey;
+  width: 60%;
+  margin-left: calc(3% + 48px);
+  align-content: center;
 }
 
 .card footer div {
@@ -79,10 +97,13 @@
 }
 
 .social-button {
-
+  display: flex;
+  align-items: center;
+  align-content: center;
 }
 
 .social-button p {
   font-weight: bold;
   margin-left: 5px;
+  font-size: 9pt;
 }

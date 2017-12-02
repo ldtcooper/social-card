@@ -1,10 +1,16 @@
 import React, {Component} from 'react';
 import UserInfo from './user_info.jsx';
+import fetchJsonp from 'fetch-jsonp';
 
 class Header extends Component {
   constructor(props) {
     super(props);
-    this.state = {date: null};
+    this.state = {
+      date: null,
+      username: null,
+      userHandle: null,
+      textContent: null
+    };
   }
 
   componentWillMount() {
@@ -50,6 +56,10 @@ class Header extends Component {
     }
     const dd = d.getDate();
     this.setState({date: `${month} ${dd}`});
+  }
+
+  handleJSONP(response) {
+
   }
 
   render() {

@@ -8,15 +8,11 @@ class App extends Component {
     super(props);
   }
 
-  getTextContent() {
-    const xmlHttp = new XMLHttpRequest();
-    xmlHttp.open('GET', `api.forismatic.com/api/1.0/method=getQuote&format=json&lang=en`);
-    xmlHttp.send();
-    console.log(xmlHttp.responseText);
+  componentDidMount() {
+
   }
 
   render() {
-    this.getTextContent();
     return(
       <SocialCard username="William Blake"
       userHandle="@los"

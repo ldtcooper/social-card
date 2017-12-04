@@ -50,6 +50,10 @@
   font-size: 11pt;
 }
 
+.user-name:hover {
+  text-decoration: underline;
+}
+
 .user-handle {
   margin-left: 6px;
   margin-right: 6px;
@@ -60,6 +64,10 @@
 .post-date {
   color: grey;
   font-size: 10pt;
+}
+
+.post-date:hover {
+  text-decoration: underline;
 }
 
 .content-box {
